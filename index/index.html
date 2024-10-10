@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+
+    <style>
+        label{
+            text-shadow: 2px 2px 2px rgb(159, 158, 158);
+        }
+        h1{
+            text-shadow: 2px 2px 5px gray;
+        }
+        img{
+            background-color: #fff;
+            border-radius: 50%;
+        }
+    </style>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-dark rounded mt-4 mb-4 p-3 ">
+            <div class="container-fluid ">
+                <a class="navbar-brand fw-bold text-light me-5" href="#">LOGO</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon " ></span>
+                </button>
+                <div class="av">
+                    <img src="image/palu-arit.png" alt="" width="40px">
+                </div>
+            </div>
+        </nav>
+
+        <div class="percolumnan">
+            <div class="grid gap-3 row">
+                <div class="col-3" >
+                    <div class="card gap-3 ">
+                        <div class="list-group ">
+                            <div class="grid gap-row-6">
+                                <div class="h3">
+                                    <h3 class="p-4 list-group list-group-item-action bg-secondary">Side Menu</h3>
+                                </div>
+                                <div class="menu">
+                                    <li class="p-4 list-group list-group-item-action fs-5 ">Karyawan</li>
+                                    <li class="p-4 list-group list-group-item-action fs-5 ">Roles</li>
+                                    <li class="p-4 list-group list-group-item-action fs-5 ">Settings</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="list-group">
+                        <div class="card p-4 row-gap-3 mb-5 shadow p-3 mb-5 bg-body-tertiary rounded text-body-dark ">
+                            
+                            <div class="isi">
+                            <input type="text" class="form-control shadow-sm p-3 bg-info rounded fw-medium fs-5" id="karyawan" placeholder="Tambah Karyawan" dark-label="Username" >
+                            </div>
+
+                            <div class="isi">
+                            <label for="" class="form-label m-0 fs-5 fw-medium ms-3">Nama Karyawan</label>
+                            <input type="number" class="form-control shadow-sm p-3 bg-body-tertiary rounded" id="nama" placeholder="Masukan nama karyawan" aria-label="Username" >
+                            </div>
+
+                            <div class="isi">
+                            <label for="" class="form-label m-0 fs-5 fw-medium ms-3">Alamat Karyawan</label>
+                            <input type="text" class="form-control shadow-sm p-3 bg-body-tertiary rounded" id="alamat" placeholder="Masukan alamat" aria-label="Username" >
+                            </div>
+
+                            <div class="isi">
+                            <label for="" class="form-label m-0 fs-5 fw-medium ms-3">Other input</label>
+                            <input type="text" class="form-control shadow-sm p-3 bg-body-tertiary rounded" id="tanggalrilis" placeholder="--;--" aria-label="Username" >
+                            </div>
+                            
+                                <button class=" end-0 bg-info text-light col-2 p-2 fs-5 fw-medium rounded ">Simpan</button>
+                            
+                            
+                        </div>
+                        
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
+
